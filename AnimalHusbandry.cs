@@ -63,7 +63,7 @@ namespace AnimalHusbandry
         private static Player LocalPlayer = null;
 
         private static readonly float ModScreenTotalWidth = 850f;
-        private static readonly float ModScreenTotalHeight = 500f;
+        private static readonly float ModScreenTotalHeight = 250f;
         private static readonly float ModScreenMinWidth = 800f;
         private static readonly float ModScreenMaxWidth = 850f;
         private static readonly float ModScreenMinHeight = 50f;
@@ -843,12 +843,19 @@ namespace AnimalHusbandry
                     if (GUILayout.Button("Delete preset", GUI.skin.button, GUILayout.MaxWidth(200f)))
                         OnClickDeletePresetButton();
                     GUILayout.FlexibleSpace();
-                    if (GUILayout.Button("Restore default settings", GUI.skin.button, GUILayout.MaxWidth(200f)))
-                        OnClickRestoreDefaultsButton();
                     GUILayout.EndHorizontal();
                 }
                 else
                     GUILayout.Label("No presets were found.", GUI.skin.label);
+            }
+            GUILayout.Space(10.0f);
+            using (var restoreDefaultsScope = new GUILayout.VerticalScope(GUI.skin.box))
+            {
+                GUILayout.BeginHorizontal();
+                GUILayout.FlexibleSpace();
+                if (GUILayout.Button("Restore default settings", GUI.skin.button, GUILayout.MaxWidth(200f)))
+                    OnClickRestoreDefaultsButton();
+                GUILayout.EndHorizontal();
             }
         }
 
@@ -865,7 +872,7 @@ namespace AnimalHusbandry
         {
             if (SelectedPresetIndex <= 0)
             {
-                ShowHUDBigInfo(HUDBigInfoMessage("Please select a preset first.", MessageType.Error, Color.red), 5f);
+                ShowHUDBigInfo(HUDBigInfoMessage("Please select a preset first.", MessageType.Warning, Color.red), 5f);
                 return;
             }
             string[] presets = GetPresets();
@@ -905,7 +912,7 @@ namespace AnimalHusbandry
         {
             if (SelectedPresetIndex <= 0)
             {
-                ShowHUDBigInfo(HUDBigInfoMessage("Please select a preset first.", MessageType.Error, Color.red), 5f);
+                ShowHUDBigInfo(HUDBigInfoMessage("Please select a preset first.", MessageType.Warning, Color.red), 5f);
                 return;
             }
             string[] presets = GetPresets();
@@ -954,7 +961,7 @@ namespace AnimalHusbandry
                 SelectedFilter = (Animals)Enum.Parse(typeof(Animals), SelectedFilterName.Replace(' ', '_'));
             }
             if (SelectedFilterIndex == 0)
-                ShowHUDBigInfo(HUDBigInfoMessage("Please select an animal first.", MessageType.Error, Color.red), 5f);
+                ShowHUDBigInfo(HUDBigInfoMessage("Please select an animal first.", MessageType.Warning, Color.red), 5f);
         }
 
         private void OnClickSavePresetButton()
