@@ -1,0 +1,18 @@
+<Mod ID="AnimalHusbandry">
+  <Compatible>2.3.5</Compatible>
+  <Button Standard="NumPad6" ID="AnimalHusbandry">
+    <Name>
+      <EN>Show settings</EN>
+    </Name>
+    <Description>
+      <EN>This shortcut allows you to open animal husbandry settings window.</EN>
+    </Description>
+  </Button>
+  <Name>
+    <EN>AnimalHusbandry</EN>
+  </Name>
+  <Description>
+    <EN>AnimalHusbandry is a mod for Green Hell that allows to tweak animal husbandry settings. Author: OSubMarin</EN>
+  </Description>
+  <Version>1.0.0.0</Version>
+</Mod>
