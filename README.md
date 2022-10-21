@@ -16,7 +16,7 @@ Note that this mod only works if you are the host or in singleplayer mode.
 Copy the .mod file inside directory "__[...]/modapi/mods/GH/__". Then launch __ModAPI.exe__, select "AnimalHusbandry" in the left menu and click "Launch the game".
 
 ### If you don't have ModAPI yet:
-Go to [https://modapi.survivetheforest.net/game/GH/](https://modapi.survivetheforest.net/game/GH/), check "AnimalHusbandry" from the mods list and hit "Download". Then extract the archive, launch __ModAPI.exe__, select "AnimalHusbandry" in the left menu and click "Launch the game".
+Go to [https://modapi.survivetheforest.net/game/GH/](https://modapi.survivetheforest.net/game/GH/), check "Animal Husbandry" from the mods list and hit "Download". Then extract the archive, launch __ModAPI.exe__, select "AnimalHusbandry" in the left menu and click "Launch the game".
 
 ----
 
