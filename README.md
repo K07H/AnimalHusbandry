@@ -7,7 +7,7 @@ __Animal Husbandry__ is a mod for __Green Hell__ that allows you to tweak animal
 
 It also provides a feature to save and/or load customized settings.
 
-Note that this mod will only work if you are the host or in singleplayer mode.
+Note that this mod only works if you are the host or in singleplayer mode.
 
 ----
 
@@ -28,3 +28,8 @@ When in game simply press the shortcut key to open the settings window (by defau
 ## Preview
 [https://i.imgur.com/69YvpIM.png](https://i.imgur.com/69YvpIM.png)
 ![Animal Husbandry preview](https://i.imgur.com/69YvpIM.png)
+
+----
+
+## Support
+You can get help from the ModAPI community at [https://discord.gg/VAMuXyd](https://discord.gg/VAMuXyd) or you can contact me on Discord if needed (OSubMarin#0460).
