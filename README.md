@@ -1,8 +1,30 @@
-# AnimalHusbandry
-**AnimalHusbandry** is a mod for **Green Hell** that will allow you to tweak animal husbandry settings.
+# Animal Husbandry
 
-Simply press the shortcut key to open the interface (by default it is **NumPad6**).
+----
+
+## Description
+__Animal Husbandry__ is a mod for __Green Hell__ that allows you to tweak animal husbandry settings.
 
 It also provides a feature to save and/or load customized settings.
 
-**Note that this mod will only work if you are the host or in singleplayer mode.**
+Note that this mod will only work if you are the host or in singleplayer mode.
+
+----
+
+## Install
+### If you already have ModAPI installed:
+Copy the .mod file inside directory "__[...]/modapi/mods/GH/__". Then launch __ModAPI.exe__, select "AnimalHusbandry" in the left menu and click "Launch the game".
+
+### If you don't have ModAPI yet:
+Go to [https://modapi.survivetheforest.net/game/GH/](https://modapi.survivetheforest.net/game/GH/), check "AnimalHusbandry" from the mods list and hit "Download". Then extract the archive, launch __ModAPI.exe__, select "AnimalHusbandry" in the left menu and click "Launch the game".
+
+----
+
+## Usage
+When in game simply press the shortcut key to open the settings window (by default it is __NumPad6__).
+
+----
+
+## Preview
+[https://i.imgur.com/69YvpIM.png](https://i.imgur.com/69YvpIM.png)
+![Animal Husbandry preview](https://i.imgur.com/69YvpIM.png)
