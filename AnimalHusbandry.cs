@@ -8,7 +8,11 @@ using UnityEngine;
 
 namespace AnimalHusbandry
 {
-    /// <summary>AnimalHusbandry is a mod for Green Hell that allows you to tweak animal husbandry settings.</summary>
+    /// <summary>
+    /// AnimalHusbandry is a mod for Green Hell that allows you to tweak animal husbandry settings.
+    /// Usage: Simply press the shortcut in game to open the mod window (by default it is NumPad6).
+    /// Author: OSubMarin
+    /// </summary>
     public class AnimalHusbandry : MonoBehaviour
     {
         #region Enums
@@ -177,7 +181,7 @@ namespace AnimalHusbandry
             AnimalHusbandryScreen = GUILayout.Window(wid,
                 AnimalHusbandryScreen,
                 InitAnimalHusbandryScreen,
-                ModName,
+                "Animal Husbandry mod v1.0.0.1, by OSubMarin",
                 GUI.skin.window,
                 GUILayout.ExpandWidth(true),
                 GUILayout.MinWidth(ModScreenMinWidth),
@@ -816,7 +820,7 @@ namespace AnimalHusbandry
                 GUILayout.Label("Presets folder location: " + PresetsFolder, ItalicLabelStyle);
                 GUILayout.Space(5f);
                 GUI.color = Color.cyan;
-                GUILayout.Label("Save preset (allows you to save currents settings for all animals into a preset): ", GUI.skin.label);
+                GUILayout.Label("Save preset (allows you to save current settings for all animals into a preset): ", GUI.skin.label);
                 GUI.color = DefaultGuiColor;
                 using (var actionScope = new GUILayout.HorizontalScope(GUI.skin.box))
                 {
