@@ -21,7 +21,7 @@ Go to [https://modapi.survivetheforest.net/game/GH/](https://modapi.survivethefo
 ----
 
 ## Usage
-When in game simply press the shortcut key to open the settings window (by default it is __NumPad6__).
+When in game simply press the shortcut key to open settings window (by default it is __NumPad6__).
 
 ----
 
